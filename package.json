@@ -1,0 +1,18 @@
+{
+  "name": "dojo-node",
+  "version": "1.0.0",
+  "description": "Provide the ability to do coding dojos with node",
+  "main": "index.js",
+  "author": "Hans Sowa <hans.sowa@ogs.at>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  }
+}
