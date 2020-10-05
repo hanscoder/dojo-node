@@ -7,12 +7,18 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.6",
+    "@babel/eslint-parser": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "babel-jest": "^26.3.0",
-    "jest": "^26.4.2"
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2"
   },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll"
-  }
+  },
+  "dependencies": {}
 }

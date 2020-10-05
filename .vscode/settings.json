@@ -1,7 +1,12 @@
 {
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "cSpell.words": [
     ],
     "cSpell.ignorePaths": [
+        "**/package.json",
         "**/package-lock.json",
         "**/node_modules/**",
         "**/vscode-extension/**",
@@ -9,6 +14,7 @@
         ".vscode",
         "yarn.lock",
         "jest.config.js",
-        ".devcontainer"
+        ".devcontainer",
+        ".eslintrc.js"
     ]
 }
