@@ -12,7 +12,12 @@ Provide a node docker development environment for Visual Studio Code.
 
 ## Getting started
 
-After checkout run the command "Remote-Containers: Reopen in Container"
+Run the command "Remote-Containers: Reopen in Container"
+
+In the command line of vscode start the test in watch mode.
+```sh
+$ yarn test:watch
+```
 
 [vscode]: https://code.visualstudio.com/
 [docker]: https://docs.docker.com/get-docker/
